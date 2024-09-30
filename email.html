@@ -41,7 +41,6 @@
     let maill=document.getElementById('mail').value;
         fetch('https://aiemailapi.vercel.app/sendEmail',{
               method:"POST",
-              mode: "no-cors",
               headers: {
             'Content-Type': 'application/json'  // Specify that you are sending JSON data
         },
